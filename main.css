@@ -30,6 +30,16 @@ header a {
     align-items: center;
     justify-content: flex-end;
 }
+
+#googleApps {
+    height: 18px;
+    padding: 0 16px 0 12px;
+    width: 18px;
+    display: inline;
+    position: relative;
+    top: 5px;
+   
+}
 .googleLogo {
     margin-top: 89px;
     align-content: center;
@@ -52,15 +62,15 @@ header a {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     width: 100%;
 }
-a.voice{
-    width: 24px;
-    padding: 0 8px;
-    width: 18px;
-    background: url("data:image/png;base64,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") no-repeat -3px 0;
-    background-size: 18px 23px;
-    height: 23px;
-}
 
+#voice {
+    height: 23px;
+    padding: 0 8px;
+    width: 15px;
+    position: relative;
+    top: -33px;
+    right: -290px;
+}
 .submitButtons {
     padding-top: 18px;
 }
