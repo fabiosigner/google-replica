@@ -40,6 +40,13 @@ header a {
     top: 5px;
    
 }
+.smallText {
+    position: relative;
+    text-align: center;
+    top: 200px;
+    font-size: 10px;
+    color: grey;
+}
 .googleLogo {
     margin-top: 89px;
     align-content: center;
